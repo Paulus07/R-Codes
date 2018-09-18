@@ -1,20 +1,22 @@
-Show current date
-Show current Date & timestamp
-Show only timestamp
-Extracting date from timestamp
-Extracting time from timestamp
-Extracting date number from date
-Extracting month number from date
-Extracting year number from date
-Extracting week number from date
-Extracting date of the year from date 
-Extracting week day name from date
-Extracting day number of the year 
-Extracting hour from timestamp
-Extracting minutes from timestamp
+Show current date - done
+Show current Date & timestamp - done
+Show only timestamp - done
+Extracting date from timestamp - done
+Extracting time from timestamp - done
+Extracting date number from date - done
+Extracting month number from date - done
+Extracting year number from date - done
+Extracting week number from date - done
+Extracting date of the year from date - done
+Extracting week day name from date - done
+Extracting day number of the year - done
+Extracting hour from timestamp - done
+Extracting minutes from timestamp - done
 Date difference and addition
 Hour difference and addition
 Different time and date formats
-Leap year function 
-Show timezone
+Leap year function - done
 Timezone conversion
+
+--------------------------------------------------------------------------------
+Format cheat sheet
