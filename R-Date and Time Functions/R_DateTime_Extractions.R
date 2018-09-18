@@ -4,10 +4,10 @@
 
 Sys.Date()                        #Show current system date
 Sys.time()                        #Show timestamp
-format(Sys.time(),format = '%T')  #Extracting time from timestamp 
-as.Date(Sys.time())               #Casting timestamp as date 
+format(Sys.time(),format = '%T')  #Extracting time from timestamp
+as.Date(Sys.time())               #Casting timestamp as date
 format(Sys.time(),format= '%d')   #Extracting date of month from timestamp
-lubridate::day(Sys.time())             
+lubridate::day(Sys.time())
 format(Sys.time(),format= '%m')   #Extracting month from timestamp
 lubridate::month(Sys.Date())
 months(Sys.time())                #Extracting Month Name
@@ -18,11 +18,16 @@ lubridate::year(Sys.time())
 format(Sys.time(),format= '%W')   #Extracting Weeknumber from timestamp
 lubridate::week(Sys.Date())
 weekdays(Sys.time())              #Extracting Week day name from Timestamp
-lubridate::yday(Sys.Date())       #Extracting day of the year
-lubridate::mday(Sys.Date())       #Extracting day of the month
+format(Sys.time(),format= '%A')
+format(Sys.time(),format= '%j')   #Extracting day of the year
+lubridate::yday(Sys.Date())
+format(Sys.time(),format= '%d')   #Extracting day of the month
+lubridate::mday(Sys.Date())
 lubridate::qday(Sys.Date())       #Extracting day of the quarter
 lubridate::quarter(Sys.Date())    #Gets fiscal quarter
-lubridate::wday(Sys.Date())       #Extracting day of the week(Start start day: Sunday)
+lubridate::wday(Sys.Date())       #Extracting day of the week(Week start day: Sunday)
+format(Sys.time(),format= '%w')   #Extracting day of the week(Week start day: Sun; 0-6 i.e.0 = Sun, 1= Mon..,)
+format(Sys.time(),format= '%u')   #Extracting day of the week(Week start day: Mon; 1-7 i.e.1= Mon..,)
 lubridate::am(Sys.time())         #Validates if a time is AM or PM
 lubridate::leap_year(2020)        #Validates for leap year
 lubridate::floor_date(Sys.Date(),unit = "week")  #week start date
